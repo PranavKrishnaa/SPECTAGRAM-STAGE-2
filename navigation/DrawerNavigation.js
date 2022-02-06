@@ -1,6 +1,6 @@
 import React from "react";
 import { createDrawerNavigator } from "@react-navigation/drawer";
-import TabNavigator from "./TabNavigator";
+import TabNavigator from "./navigation/TabNavigator";
 import Profile from "./screens/Profile";
  
 const Drawer = createDrawerNavigator();
